@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Roboto:400,900&display=swap');
+
+
+body {
+background-color: rgb(10,10,10, 0.1);
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  transition: 5s;
+  }
+
+/*img {
+  width: 130px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+
+}*/
+
+.img-circle {
+  width: 130px;
+  border-radius: 50%;
+
+
+}
+
+a {
+  color: #8A897C;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#btn-grey {
+  font-weight: lighter;
+  font-size: 20px;
+  background-color: #8A897C;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  transition: 1s;
+}
+
+#btn-grey:hover {
+  background-color: black;
+  }
+
+
+.cards {
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+  margin: 35px auto;
+  width: 50vw;
+  box-shadow: 0px 2px 2px #8A897C;
+}
+
+.bottom {
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+  margin: 35px auto;
+  width: 50vw;
+  box-shadow: 0px 2px 2px #8A897C;
+  }
+
+
+.container {
+
+}
+
+
+p {
+margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #BDBBB0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px 10px 20px;
+  font-size: 80px;
+  text-decoration: none;
+  margin: 0;
+  line-height: 0px;
+  transition: 1s;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+
+a:hover {
+  color: #0A0908;
+}
+
+
